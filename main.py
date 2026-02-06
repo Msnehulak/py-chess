@@ -98,7 +98,7 @@ class Board:
 
         move_list = []
 
-        # LOGIKA PRO JEZDCE (Knight)
+        # logic for night
         if char == "n":
             knight_offsets = [
                 (-2, -1), (-2, 1), (2, -1), (2, 1),
